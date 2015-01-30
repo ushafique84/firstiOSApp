@@ -24,6 +24,7 @@
 		B67AA7471A7B16B900B734FE /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B67AA7441A7B16B900B734FE /* SVProgressHUD.m */; };
 		B67AA7541A7B499E00B734FE /* single_recipient.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B67AA7531A7B499E00B734FE /* single_recipient.bundle */; };
 		B67AA7571A7B4CC700B734FE /* multiple_recipient.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B67AA7561A7B4CC700B734FE /* multiple_recipient.bundle */; };
+		B67AA7591A7BF30D00B734FE /* multi_recip_attach.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B67AA7581A7BF30D00B734FE /* multi_recip_attach.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,7 @@
 		B67AA7441A7B16B900B734FE /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
 		B67AA7531A7B499E00B734FE /* single_recipient.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = single_recipient.bundle; sourceTree = "<group>"; };
 		B67AA7561A7B4CC700B734FE /* multiple_recipient.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = multiple_recipient.bundle; sourceTree = "<group>"; };
+		B67AA7581A7BF30D00B734FE /* multi_recip_attach.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = multi_recip_attach.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 		B67AA63E1A784A1100B734FE = {
 			isa = PBXGroup;
 			children = (
+				B67AA7581A7BF30D00B734FE /* multi_recip_attach.bundle */,
 				B67AA7561A7B4CC700B734FE /* multiple_recipient.bundle */,
 				B67AA7531A7B499E00B734FE /* single_recipient.bundle */,
 				B67AA73E1A7B16B900B734FE /* SVProgressHUD */,
@@ -273,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B67AA7461A7B16B900B734FE /* SVProgressHUD.bundle in Resources */,
+				B67AA7591A7BF30D00B734FE /* multi_recip_attach.bundle in Resources */,
 				B67AA7371A7B13A700B734FE /* LaunchScreen.png in Resources */,
 				B67AA7571A7B4CC700B734FE /* multiple_recipient.bundle in Resources */,
 				B67AA7541A7B499E00B734FE /* single_recipient.bundle in Resources */,

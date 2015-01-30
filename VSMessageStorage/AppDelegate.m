@@ -22,8 +22,9 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     MessagesDoc *message1 = [[MessagesDoc alloc] initWithTitle:@"Single Recipient" bundleName:@"single_recipient"];
     MessagesDoc *message2 = [[MessagesDoc alloc] initWithTitle:@"Multiple Recipeint" bundleName:@"multiple_recipient"];
+    MessagesDoc *message3 = [[MessagesDoc alloc] initWithTitle:@"Multiple w/ Attachment" bundleName:@"multi_recip_attach"];
     
-    NSMutableArray *messages = [NSMutableArray arrayWithObjects:message1, message2, nil];
+    NSMutableArray *messages = [NSMutableArray arrayWithObjects:message1, message2, message3, nil];
     
     UINavigationController *navController = (UINavigationController *) self.window.rootViewController;
     MasterViewController *masterController = [navController.viewControllers objectAtIndex:0];
