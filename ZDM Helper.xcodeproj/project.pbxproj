@@ -38,7 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B67AA6471A784A1100B734FE /* VSMessageStorage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VSMessageStorage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B67AA6471A784A1100B734FE /* ZDM Helper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ZDM Helper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B67AA64B1A784A1100B734FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B67AA64C1A784A1100B734FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B67AA64E1A784A1100B734FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = VSMessageStorage/AppDelegate.h; sourceTree = "<group>"; };
@@ -49,7 +49,7 @@
 		B67AA6551A784A1100B734FE /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = DetailViewController.m; path = /Users/usman/Xcode/VSMessageStorage/VSMessageStorage/DetailViewController.m; sourceTree = "<absolute>"; };
 		B67AA6581A784A1100B734FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B67AA65A1A784A1100B734FE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		B67AA6631A784A1100B734FE /* VSMessageStorageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VSMessageStorageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B67AA6631A784A1100B734FE /* ZDM HelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ZDM HelperTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B67AA6681A784A1100B734FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B67AA6691A784A1100B734FE /* VSMessageStorageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VSMessageStorageTests.m; sourceTree = "<group>"; };
 		B67AA6751A784FE800B734FE /* MessagesData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessagesData.h; sourceTree = "<group>"; };
@@ -107,8 +107,8 @@
 		B67AA6481A784A1100B734FE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B67AA6471A784A1100B734FE /* VSMessageStorage.app */,
-				B67AA6631A784A1100B734FE /* VSMessageStorageTests.xctest */,
+				B67AA6471A784A1100B734FE /* ZDM Helper.app */,
+				B67AA6631A784A1100B734FE /* ZDM HelperTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -199,9 +199,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B67AA6461A784A1100B734FE /* VSMessageStorage */ = {
+		B67AA6461A784A1100B734FE /* ZDM Helper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B67AA66D1A784A1100B734FE /* Build configuration list for PBXNativeTarget "VSMessageStorage" */;
+			buildConfigurationList = B67AA66D1A784A1100B734FE /* Build configuration list for PBXNativeTarget "ZDM Helper" */;
 			buildPhases = (
 				B67AA6431A784A1100B734FE /* Sources */,
 				B67AA6441A784A1100B734FE /* Frameworks */,
@@ -211,14 +211,14 @@
 			);
 			dependencies = (
 			);
-			name = VSMessageStorage;
+			name = "ZDM Helper";
 			productName = VSMessageStorage;
-			productReference = B67AA6471A784A1100B734FE /* VSMessageStorage.app */;
+			productReference = B67AA6471A784A1100B734FE /* ZDM Helper.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B67AA6621A784A1100B734FE /* VSMessageStorageTests */ = {
+		B67AA6621A784A1100B734FE /* ZDM HelperTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B67AA6701A784A1100B734FE /* Build configuration list for PBXNativeTarget "VSMessageStorageTests" */;
+			buildConfigurationList = B67AA6701A784A1100B734FE /* Build configuration list for PBXNativeTarget "ZDM HelperTests" */;
 			buildPhases = (
 				B67AA65F1A784A1100B734FE /* Sources */,
 				B67AA6601A784A1100B734FE /* Frameworks */,
@@ -229,9 +229,9 @@
 			dependencies = (
 				B67AA6651A784A1100B734FE /* PBXTargetDependency */,
 			);
-			name = VSMessageStorageTests;
+			name = "ZDM HelperTests";
 			productName = VSMessageStorageTests;
-			productReference = B67AA6631A784A1100B734FE /* VSMessageStorageTests.xctest */;
+			productReference = B67AA6631A784A1100B734FE /* ZDM HelperTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -251,7 +251,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B67AA6421A784A1100B734FE /* Build configuration list for PBXProject "VSMessageStorage" */;
+			buildConfigurationList = B67AA6421A784A1100B734FE /* Build configuration list for PBXProject "ZDM Helper" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -264,8 +264,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B67AA6461A784A1100B734FE /* VSMessageStorage */,
-				B67AA6621A784A1100B734FE /* VSMessageStorageTests */,
+				B67AA6461A784A1100B734FE /* ZDM Helper */,
+				B67AA6621A784A1100B734FE /* ZDM HelperTests */,
 			);
 		};
 /* End PBXProject section */
@@ -325,7 +325,7 @@
 /* Begin PBXTargetDependency section */
 		B67AA6651A784A1100B734FE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B67AA6461A784A1100B734FE /* VSMessageStorage */;
+			target = B67AA6461A784A1100B734FE /* ZDM Helper */;
 			targetProxy = B67AA6641A784A1100B734FE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -437,7 +437,7 @@
 				INFOPLIST_FILE = VSMessageStorage/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "ZDM Helper";
 			};
 			name = Debug;
 		};
@@ -449,7 +449,7 @@
 				INFOPLIST_FILE = VSMessageStorage/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "ZDM Helper";
 			};
 			name = Release;
 		};
@@ -467,7 +467,7 @@
 				);
 				INFOPLIST_FILE = VSMessageStorageTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "ZDM HelperTests";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VSMessageStorage.app/VSMessageStorage";
 			};
 			name = Debug;
@@ -482,7 +482,7 @@
 				);
 				INFOPLIST_FILE = VSMessageStorageTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "ZDM HelperTests";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VSMessageStorage.app/VSMessageStorage";
 			};
 			name = Release;
@@ -490,7 +490,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B67AA6421A784A1100B734FE /* Build configuration list for PBXProject "VSMessageStorage" */ = {
+		B67AA6421A784A1100B734FE /* Build configuration list for PBXProject "ZDM Helper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B67AA66B1A784A1100B734FE /* Debug */,
@@ -499,7 +499,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B67AA66D1A784A1100B734FE /* Build configuration list for PBXNativeTarget "VSMessageStorage" */ = {
+		B67AA66D1A784A1100B734FE /* Build configuration list for PBXNativeTarget "ZDM Helper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B67AA66E1A784A1100B734FE /* Debug */,
@@ -508,7 +508,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B67AA6701A784A1100B734FE /* Build configuration list for PBXNativeTarget "VSMessageStorageTests" */ = {
+		B67AA6701A784A1100B734FE /* Build configuration list for PBXNativeTarget "ZDM HelperTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B67AA6711A784A1100B734FE /* Debug */,
