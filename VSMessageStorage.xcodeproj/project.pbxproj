@@ -13,8 +13,17 @@
 		B67AA6561A784A1100B734FE /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B67AA6551A784A1100B734FE /* DetailViewController.m */; };
 		B67AA6591A784A1100B734FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B67AA6571A784A1100B734FE /* Main.storyboard */; };
 		B67AA65B1A784A1100B734FE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B67AA65A1A784A1100B734FE /* Images.xcassets */; };
-		B67AA65E1A784A1100B734FE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B67AA65C1A784A1100B734FE /* LaunchScreen.xib */; };
 		B67AA66A1A784A1100B734FE /* VSMessageStorageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B67AA6691A784A1100B734FE /* VSMessageStorageTests.m */; };
+		B67AA6771A784FE800B734FE /* MessagesData.m in Sources */ = {isa = PBXBuildFile; fileRef = B67AA6761A784FE800B734FE /* MessagesData.m */; };
+		B67AA67A1A78541E00B734FE /* MessagesDoc.m in Sources */ = {isa = PBXBuildFile; fileRef = B67AA6791A78541E00B734FE /* MessagesDoc.m */; };
+		B67AA72A1A7B07E300B734FE /* voltage_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = B67AA7291A7B07E300B734FE /* voltage_logo.png */; };
+		B67AA7331A7B118000B734FE /* LaunchScreenTest.xib in Resources */ = {isa = PBXBuildFile; fileRef = B67AA7311A7B118000B734FE /* LaunchScreenTest.xib */; };
+		B67AA7371A7B13A700B734FE /* LaunchScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = B67AA7361A7B13A700B734FE /* LaunchScreen.png */; };
+		B67AA7451A7B16B900B734FE /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = B67AA7401A7B16B900B734FE /* SVIndefiniteAnimatedView.m */; };
+		B67AA7461A7B16B900B734FE /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B67AA7421A7B16B900B734FE /* SVProgressHUD.bundle */; };
+		B67AA7471A7B16B900B734FE /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B67AA7441A7B16B900B734FE /* SVProgressHUD.m */; };
+		B67AA7501A7B2EC900B734FE /* message_zdm.html in Resources */ = {isa = PBXBuildFile; fileRef = B67AA74F1A7B2EC900B734FE /* message_zdm.html */; };
+		B67AA7521A7B2ED000B734FE /* message_zdm.html in Resources */ = {isa = PBXBuildFile; fileRef = B67AA7511A7B2ED000B734FE /* message_zdm.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,18 +40,32 @@
 		B67AA6471A784A1100B734FE /* VSMessageStorage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VSMessageStorage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B67AA64B1A784A1100B734FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B67AA64C1A784A1100B734FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B67AA64E1A784A1100B734FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		B67AA64F1A784A1100B734FE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B67AA6511A784A1100B734FE /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		B67AA6521A784A1100B734FE /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		B67AA6541A784A1100B734FE /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		B67AA6551A784A1100B734FE /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		B67AA64E1A784A1100B734FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = VSMessageStorage/AppDelegate.h; sourceTree = "<group>"; };
+		B67AA64F1A784A1100B734FE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = VSMessageStorage/AppDelegate.m; sourceTree = "<group>"; };
+		B67AA6511A784A1100B734FE /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MasterViewController.h; path = VSMessageStorage/MasterViewController.h; sourceTree = "<group>"; };
+		B67AA6521A784A1100B734FE /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MasterViewController.m; path = VSMessageStorage/MasterViewController.m; sourceTree = "<group>"; };
+		B67AA6541A784A1100B734FE /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DetailViewController.h; path = VSMessageStorage/DetailViewController.h; sourceTree = "<group>"; };
+		B67AA6551A784A1100B734FE /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = DetailViewController.m; path = VSMessageStorage/DetailViewController.m; sourceTree = "<group>"; };
 		B67AA6581A784A1100B734FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B67AA65A1A784A1100B734FE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		B67AA65D1A784A1100B734FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B67AA6631A784A1100B734FE /* VSMessageStorageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VSMessageStorageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B67AA6681A784A1100B734FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B67AA6691A784A1100B734FE /* VSMessageStorageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VSMessageStorageTests.m; sourceTree = "<group>"; };
+		B67AA6751A784FE800B734FE /* MessagesData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessagesData.h; sourceTree = "<group>"; };
+		B67AA6761A784FE800B734FE /* MessagesData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessagesData.m; sourceTree = "<group>"; };
+		B67AA6781A78541E00B734FE /* MessagesDoc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessagesDoc.h; sourceTree = "<group>"; };
+		B67AA6791A78541E00B734FE /* MessagesDoc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessagesDoc.m; sourceTree = "<group>"; };
+		B67AA7291A7B07E300B734FE /* voltage_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = voltage_logo.png; sourceTree = "<group>"; };
+		B67AA7321A7B118000B734FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = VSMessageStorage/Base.lproj/LaunchScreenTest.xib; sourceTree = "<group>"; };
+		B67AA7361A7B13A700B734FE /* LaunchScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchScreen.png; sourceTree = "<group>"; };
+		B67AA73F1A7B16B900B734FE /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		B67AA7401A7B16B900B734FE /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		B67AA7411A7B16B900B734FE /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
+		B67AA7421A7B16B900B734FE /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		B67AA7431A7B16B900B734FE /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		B67AA7441A7B16B900B734FE /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		B67AA74F1A7B2EC900B734FE /* message_zdm.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = message_zdm.html; path = Docs/single_recipient/message_zdm.html; sourceTree = "<group>"; };
+		B67AA7511A7B2ED000B734FE /* message_zdm.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = message_zdm.html; path = Docs/multi_recipient/message_zdm.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +89,11 @@
 		B67AA63E1A784A1100B734FE = {
 			isa = PBXGroup;
 			children = (
+				B67AA7481A7B1C8D00B734FE /* Documents */,
+				B67AA73E1A7B16B900B734FE /* SVProgressHUD */,
+				B67AA71E1A7B033E00B734FE /* Art */,
+				B67AA6741A784F3600B734FE /* Model */,
+				B67AA6731A784EEB00B734FE /* GUI */,
 				B67AA6491A784A1100B734FE /* VSMessageStorage */,
 				B67AA6661A784A1100B734FE /* VSMessageStorageTests */,
 				B67AA6481A784A1100B734FE /* Products */,
@@ -84,15 +112,7 @@
 		B67AA6491A784A1100B734FE /* VSMessageStorage */ = {
 			isa = PBXGroup;
 			children = (
-				B67AA64E1A784A1100B734FE /* AppDelegate.h */,
-				B67AA64F1A784A1100B734FE /* AppDelegate.m */,
-				B67AA6511A784A1100B734FE /* MasterViewController.h */,
-				B67AA6521A784A1100B734FE /* MasterViewController.m */,
-				B67AA6541A784A1100B734FE /* DetailViewController.h */,
-				B67AA6551A784A1100B734FE /* DetailViewController.m */,
-				B67AA6571A784A1100B734FE /* Main.storyboard */,
 				B67AA65A1A784A1100B734FE /* Images.xcassets */,
-				B67AA65C1A784A1100B734FE /* LaunchScreen.xib */,
 				B67AA64A1A784A1100B734FE /* Supporting Files */,
 			);
 			path = VSMessageStorage;
@@ -122,6 +142,79 @@
 				B67AA6681A784A1100B734FE /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B67AA6731A784EEB00B734FE /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				B67AA7311A7B118000B734FE /* LaunchScreenTest.xib */,
+				B67AA64E1A784A1100B734FE /* AppDelegate.h */,
+				B67AA64F1A784A1100B734FE /* AppDelegate.m */,
+				B67AA6511A784A1100B734FE /* MasterViewController.h */,
+				B67AA6521A784A1100B734FE /* MasterViewController.m */,
+				B67AA6541A784A1100B734FE /* DetailViewController.h */,
+				B67AA6551A784A1100B734FE /* DetailViewController.m */,
+				B67AA6571A784A1100B734FE /* Main.storyboard */,
+			);
+			name = GUI;
+			sourceTree = "<group>";
+		};
+		B67AA6741A784F3600B734FE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B67AA6751A784FE800B734FE /* MessagesData.h */,
+				B67AA6761A784FE800B734FE /* MessagesData.m */,
+				B67AA6781A78541E00B734FE /* MessagesDoc.h */,
+				B67AA6791A78541E00B734FE /* MessagesDoc.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		B67AA71E1A7B033E00B734FE /* Art */ = {
+			isa = PBXGroup;
+			children = (
+				B67AA7291A7B07E300B734FE /* voltage_logo.png */,
+				B67AA7361A7B13A700B734FE /* LaunchScreen.png */,
+			);
+			name = Art;
+			sourceTree = "<group>";
+		};
+		B67AA73E1A7B16B900B734FE /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				B67AA73F1A7B16B900B734FE /* SVIndefiniteAnimatedView.h */,
+				B67AA7401A7B16B900B734FE /* SVIndefiniteAnimatedView.m */,
+				B67AA7411A7B16B900B734FE /* SVProgressHUD-Prefix.pch */,
+				B67AA7421A7B16B900B734FE /* SVProgressHUD.bundle */,
+				B67AA7431A7B16B900B734FE /* SVProgressHUD.h */,
+				B67AA7441A7B16B900B734FE /* SVProgressHUD.m */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		B67AA7481A7B1C8D00B734FE /* Documents */ = {
+			isa = PBXGroup;
+			children = (
+				B67AA74E1A7B2A7C00B734FE /* multi_recipient */,
+				B67AA74D1A7B2A6D00B734FE /* single_recipient */,
+			);
+			name = Documents;
+			sourceTree = "<group>";
+		};
+		B67AA74D1A7B2A6D00B734FE /* single_recipient */ = {
+			isa = PBXGroup;
+			children = (
+				B67AA74F1A7B2EC900B734FE /* message_zdm.html */,
+			);
+			name = single_recipient;
+			sourceTree = "<group>";
+		};
+		B67AA74E1A7B2A7C00B734FE /* multi_recipient */ = {
+			isa = PBXGroup;
+			children = (
+				B67AA7511A7B2ED000B734FE /* message_zdm.html */,
+			);
+			name = multi_recipient;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,8 +296,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B67AA7461A7B16B900B734FE /* SVProgressHUD.bundle in Resources */,
+				B67AA7501A7B2EC900B734FE /* message_zdm.html in Resources */,
+				B67AA7521A7B2ED000B734FE /* message_zdm.html in Resources */,
+				B67AA7371A7B13A700B734FE /* LaunchScreen.png in Resources */,
+				B67AA7331A7B118000B734FE /* LaunchScreenTest.xib in Resources */,
+				B67AA72A1A7B07E300B734FE /* voltage_logo.png in Resources */,
 				B67AA6591A784A1100B734FE /* Main.storyboard in Resources */,
-				B67AA65E1A784A1100B734FE /* LaunchScreen.xib in Resources */,
 				B67AA65B1A784A1100B734FE /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -223,9 +321,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B67AA67A1A78541E00B734FE /* MessagesDoc.m in Sources */,
+				B67AA7471A7B16B900B734FE /* SVProgressHUD.m in Sources */,
 				B67AA6501A784A1100B734FE /* AppDelegate.m in Sources */,
 				B67AA6531A784A1100B734FE /* MasterViewController.m in Sources */,
+				B67AA6771A784FE800B734FE /* MessagesData.m in Sources */,
 				B67AA64D1A784A1100B734FE /* main.m in Sources */,
+				B67AA7451A7B16B900B734FE /* SVIndefiniteAnimatedView.m in Sources */,
 				B67AA6561A784A1100B734FE /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -255,14 +357,15 @@
 				B67AA6581A784A1100B734FE /* Base */,
 			);
 			name = Main.storyboard;
+			path = VSMessageStorage;
 			sourceTree = "<group>";
 		};
-		B67AA65C1A784A1100B734FE /* LaunchScreen.xib */ = {
+		B67AA7311A7B118000B734FE /* LaunchScreenTest.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B67AA65D1A784A1100B734FE /* Base */,
+				B67AA7321A7B118000B734FE /* Base */,
 			);
-			name = LaunchScreen.xib;
+			name = LaunchScreenTest.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -350,7 +453,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
 				INFOPLIST_FILE = VSMessageStorage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -360,7 +465,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
 				INFOPLIST_FILE = VSMessageStorage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -419,6 +526,7 @@
 				B67AA66F1A784A1100B734FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B67AA6701A784A1100B734FE /* Build configuration list for PBXNativeTarget "VSMessageStorageTests" */ = {
 			isa = XCConfigurationList;
@@ -427,6 +535,7 @@
 				B67AA6721A784A1100B734FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

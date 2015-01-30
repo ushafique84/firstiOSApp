@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 #import "DetailViewController.h"
+#import "MasterViewController.h"
+#import "MessagesDoc.h"
 
 @interface AppDelegate () <UISplitViewControllerDelegate>
 
@@ -15,13 +17,25 @@
 
 @implementation AppDelegate
 
-
+    //OVERRIDING METHOD
+    //ADDING SAMPLE MESSAGES AND ADDING TO A MUTABLE ARRAY FOR DETAILED VIEW
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    MessagesDoc *message1 = [[MessagesDoc alloc] initWithTitle:@"Single Recipient" fileName:@"Docs/single_recipient/message_zdm.html"];
+    MessagesDoc *message2 = [[MessagesDoc alloc] initWithTitle:@"Multiple Recipeint" fileName:@"Docs/multi_recipient/message_zdm.html"];
+    
+    NSMutableArray *messages = [NSMutableArray arrayWithObjects:message1, message2, nil];
+    
+    UINavigationController *navController = (UINavigationController *) self.window.rootViewController;
+    MasterViewController *masterController = [navController.viewControllers objectAtIndex:0];
+    masterController.messages = messages;
+    
+
+    
     // Override point for customization after application launch.
-    UISplitViewController *splitViewController = (UISplitViewController *)self.window.rootViewController;
-    UINavigationController *navigationController = [splitViewController.viewControllers lastObject];
-    navigationController.topViewController.navigationItem.leftBarButtonItem = splitViewController.displayModeButtonItem;
-    splitViewController.delegate = self;
+    //UISplitViewController *splitViewController = (UISplitViewController *)self.window.rootViewController;
+    //UINavigationController *navigationController = [splitViewController.viewControllers lastObject];
+    //navigationController.topViewController.navigationItem.leftBarButtonItem = splitViewController.displayModeButtonItem;
+    //splitViewController.delegate = self;
     return YES;
 }
 

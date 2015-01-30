@@ -8,10 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DetailViewController : UIViewController
+@class MessagesDoc;
 
-@property (strong, nonatomic) id detailItem;
+@interface DetailViewController : UIViewController <UIDocumentInteractionControllerDelegate>;
+
+@property (strong, nonatomic) MessagesDoc *detailItem;
 @property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
+@property UIDocumentInteractionController *documentInteractionController;
+
+@property (strong) NSMutableArray *messages;
+
+- (IBAction)openZDM:(id)sender;
 
 @end
 
