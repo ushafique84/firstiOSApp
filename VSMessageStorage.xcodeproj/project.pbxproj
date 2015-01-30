@@ -22,8 +22,8 @@
 		B67AA7451A7B16B900B734FE /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = B67AA7401A7B16B900B734FE /* SVIndefiniteAnimatedView.m */; };
 		B67AA7461A7B16B900B734FE /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B67AA7421A7B16B900B734FE /* SVProgressHUD.bundle */; };
 		B67AA7471A7B16B900B734FE /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B67AA7441A7B16B900B734FE /* SVProgressHUD.m */; };
-		B67AA7501A7B2EC900B734FE /* message_zdm.html in Resources */ = {isa = PBXBuildFile; fileRef = B67AA74F1A7B2EC900B734FE /* message_zdm.html */; };
-		B67AA7521A7B2ED000B734FE /* message_zdm.html in Resources */ = {isa = PBXBuildFile; fileRef = B67AA7511A7B2ED000B734FE /* message_zdm.html */; };
+		B67AA7541A7B499E00B734FE /* single_recipient.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B67AA7531A7B499E00B734FE /* single_recipient.bundle */; };
+		B67AA7571A7B4CC700B734FE /* multiple_recipient.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B67AA7561A7B4CC700B734FE /* multiple_recipient.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +45,7 @@
 		B67AA6511A784A1100B734FE /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MasterViewController.h; path = VSMessageStorage/MasterViewController.h; sourceTree = "<group>"; };
 		B67AA6521A784A1100B734FE /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MasterViewController.m; path = VSMessageStorage/MasterViewController.m; sourceTree = "<group>"; };
 		B67AA6541A784A1100B734FE /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DetailViewController.h; path = VSMessageStorage/DetailViewController.h; sourceTree = "<group>"; };
-		B67AA6551A784A1100B734FE /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = DetailViewController.m; path = VSMessageStorage/DetailViewController.m; sourceTree = "<group>"; };
+		B67AA6551A784A1100B734FE /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = DetailViewController.m; path = /Users/usman/Xcode/VSMessageStorage/VSMessageStorage/DetailViewController.m; sourceTree = "<absolute>"; };
 		B67AA6581A784A1100B734FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B67AA65A1A784A1100B734FE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B67AA6631A784A1100B734FE /* VSMessageStorageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VSMessageStorageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,8 +64,8 @@
 		B67AA7421A7B16B900B734FE /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
 		B67AA7431A7B16B900B734FE /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
 		B67AA7441A7B16B900B734FE /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
-		B67AA74F1A7B2EC900B734FE /* message_zdm.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = message_zdm.html; path = Docs/single_recipient/message_zdm.html; sourceTree = "<group>"; };
-		B67AA7511A7B2ED000B734FE /* message_zdm.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = message_zdm.html; path = Docs/multi_recipient/message_zdm.html; sourceTree = "<group>"; };
+		B67AA7531A7B499E00B734FE /* single_recipient.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = single_recipient.bundle; sourceTree = "<group>"; };
+		B67AA7561A7B4CC700B734FE /* multiple_recipient.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = multiple_recipient.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +89,8 @@
 		B67AA63E1A784A1100B734FE = {
 			isa = PBXGroup;
 			children = (
-				B67AA7481A7B1C8D00B734FE /* Documents */,
+				B67AA7561A7B4CC700B734FE /* multiple_recipient.bundle */,
+				B67AA7531A7B499E00B734FE /* single_recipient.bundle */,
 				B67AA73E1A7B16B900B734FE /* SVProgressHUD */,
 				B67AA71E1A7B033E00B734FE /* Art */,
 				B67AA6741A784F3600B734FE /* Model */,
@@ -192,31 +193,6 @@
 			path = SVProgressHUD;
 			sourceTree = "<group>";
 		};
-		B67AA7481A7B1C8D00B734FE /* Documents */ = {
-			isa = PBXGroup;
-			children = (
-				B67AA74E1A7B2A7C00B734FE /* multi_recipient */,
-				B67AA74D1A7B2A6D00B734FE /* single_recipient */,
-			);
-			name = Documents;
-			sourceTree = "<group>";
-		};
-		B67AA74D1A7B2A6D00B734FE /* single_recipient */ = {
-			isa = PBXGroup;
-			children = (
-				B67AA74F1A7B2EC900B734FE /* message_zdm.html */,
-			);
-			name = single_recipient;
-			sourceTree = "<group>";
-		};
-		B67AA74E1A7B2A7C00B734FE /* multi_recipient */ = {
-			isa = PBXGroup;
-			children = (
-				B67AA7511A7B2ED000B734FE /* message_zdm.html */,
-			);
-			name = multi_recipient;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -297,9 +273,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B67AA7461A7B16B900B734FE /* SVProgressHUD.bundle in Resources */,
-				B67AA7501A7B2EC900B734FE /* message_zdm.html in Resources */,
-				B67AA7521A7B2ED000B734FE /* message_zdm.html in Resources */,
 				B67AA7371A7B13A700B734FE /* LaunchScreen.png in Resources */,
+				B67AA7571A7B4CC700B734FE /* multiple_recipient.bundle in Resources */,
+				B67AA7541A7B499E00B734FE /* single_recipient.bundle in Resources */,
 				B67AA7331A7B118000B734FE /* LaunchScreenTest.xib in Resources */,
 				B67AA72A1A7B07E300B734FE /* voltage_logo.png in Resources */,
 				B67AA6591A784A1100B734FE /* Main.storyboard in Resources */,

@@ -46,8 +46,8 @@
         
     //Execute the code in this block in the background
     dispatch_async(concurrentQueue, ^{
-        NSURL *myFilePath = [NSURL fileURLWithPath:self.detailItem.fileName isDirectory:false];
-        //NSURL *myFilePath = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"_zdm" ofType:@"html"] isDirectory:false];
+        NSString *bundlePath = [[NSBundle mainBundle] pathForResource:self.detailItem.bundleName ofType:@"bundle"];
+        NSURL *myFilePath = [NSURL fileURLWithPath:[[NSBundle bundleWithPath:bundlePath] pathForResource:@"message_zdm" ofType:@"html"] isDirectory:false];
         self.documentInteractionController = [UIDocumentInteractionController interactionControllerWithURL: myFilePath];
         self.documentInteractionController.delegate = self;
         self.documentInteractionController.UTI = @"publc.html";

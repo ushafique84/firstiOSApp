@@ -14,8 +14,8 @@
 @interface MessagesDoc : NSObject
 
 @property (strong) MessagesData *data;
-@property (strong) NSString *fileName;
+@property (strong) NSString *bundleName;
 
-- (id)initWithTitle:(NSString*)title fileName:(NSString*)fileName;
+- (id)initWithTitle:(NSString*)title bundleName:(NSString*)bundleName;
 
 @end

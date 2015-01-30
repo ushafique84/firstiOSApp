@@ -20,8 +20,8 @@
     //OVERRIDING METHOD
     //ADDING SAMPLE MESSAGES AND ADDING TO A MUTABLE ARRAY FOR DETAILED VIEW
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    MessagesDoc *message1 = [[MessagesDoc alloc] initWithTitle:@"Single Recipient" fileName:@"Docs/single_recipient/message_zdm.html"];
-    MessagesDoc *message2 = [[MessagesDoc alloc] initWithTitle:@"Multiple Recipeint" fileName:@"Docs/multi_recipient/message_zdm.html"];
+    MessagesDoc *message1 = [[MessagesDoc alloc] initWithTitle:@"Single Recipient" bundleName:@"single_recipient"];
+    MessagesDoc *message2 = [[MessagesDoc alloc] initWithTitle:@"Multiple Recipeint" bundleName:@"multiple_recipient"];
     
     NSMutableArray *messages = [NSMutableArray arrayWithObjects:message1, message2, nil];
     

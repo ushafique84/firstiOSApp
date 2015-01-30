@@ -11,14 +11,14 @@
 
 @implementation MessagesDoc
 @synthesize data = _data;
-@synthesize fileName = _fileName;
+@synthesize bundleName = _bundleName;
 
 
-- (id)initWithTitle:(NSString*)title fileName:(NSString *)fileName{
+- (id)initWithTitle:(NSString*)title bundleName:(NSString *)bundleName{
     if ((self = [super init]))
     {
         self.data = [[MessagesData alloc] initWithTitle:title];
-        self.fileName = fileName;
+        self.bundleName = bundleName;
     }
     return self;
 }
