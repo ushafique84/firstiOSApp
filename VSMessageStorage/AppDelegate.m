@@ -26,7 +26,8 @@
     
     NSMutableArray *messages = [NSMutableArray arrayWithObjects:message1, message2, message3, nil];
     
-    UINavigationController *navController = (UINavigationController *) self.window.rootViewController;
+    UISplitViewController *splitViewController = (UISplitViewController *) self.window.rootViewController;
+    UINavigationController *navController = [splitViewController.viewControllers objectAtIndex:0];
     MasterViewController *masterController = [navController.viewControllers objectAtIndex:0];
     masterController.messages = messages;
     

@@ -71,9 +71,24 @@
         controller.navigationItem.leftItemsSupplementBackButton = YES;
     }*/
     
+    DetailViewController *controller;
+    if ([[segue destinationViewController] isKindOfClass:[UINavigationController class]]) {
+        controller = (DetailViewController *)[[segue destinationViewController] topViewController];
+    }
+    else {
+        controller = (DetailViewController *)[segue destinationViewController];
+    }
+    MessagesDoc *message = [self.messages objectAtIndex:self.tableView.indexPathForSelectedRow.row];
+    [controller setDetailItem:message];
+    
+    /*
     DetailViewController *detailController = segue.destinationViewController;
+    printf("+++++++++++))))))");
+    NSLog(@"%@", [detailController class]);
+    printf("=====================");
     MessagesDoc *message = [self.messages objectAtIndex:self.tableView.indexPathForSelectedRow.row];
     detailController.detailItem = message;
+     */
     
 }
 
